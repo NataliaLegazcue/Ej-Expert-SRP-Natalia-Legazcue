@@ -2,6 +2,13 @@
 
 namespace SRP
 {
+/*
+Para cumplir con el principio SRP deberíamos haber una única razón para que cada clase cambie, 
+por ejemplo una clase solo debe de cambiar cuando se agregan o eliminan libros 
+(conteniendo la información de los mismos) y otra clase debe de cambiar solo cuando se asigna, 
+modifica la ubicación de un libro (incluyendo un método para llamar al libro a ubicar) en lugar de tener 
+toda esta información contenida en una única clase como sucede en el ejemplo 1.
+*/
     public class Book
     {
 
